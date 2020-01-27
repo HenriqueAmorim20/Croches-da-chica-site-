@@ -101,13 +101,30 @@ section#cima article#historia h2 {
     padding: 5px;
 }
 
-section#cima article#historia img#img-historia {
+section#cima article#historia figure#img-historia {
     position: relative;
     border: 8px solid white;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
     float: right;
     margin-left: 30px;
     margin-top: 0px;
+}
+
+figure#img-historia figcaption {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    top: 0px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: 2s;
+}
+
+figure#img-historia:hover figcaption {
+    opacity: 1;
 }
 
 section#esquerda {
