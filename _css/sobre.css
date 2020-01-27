@@ -11,8 +11,8 @@ section#esq img#mulher {
     position: relative;
     float: unset;
     left: 20%;
-    border: 5px solid rgba(0, 0, 0, .5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
+    border: 0px solid rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .8);
 }
 
 section#esq {
@@ -45,6 +45,6 @@ aside#dir img#maos {
     float: unset;
     left: 10%;
     margin-bottom: 20px;
-    border: 5px solid rgba(0, 0, 0, .5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
+    border: 0px solid rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .8);
 }
