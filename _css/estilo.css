@@ -42,7 +42,7 @@ header#cabecalho-principal h2 {
 
 header#cabecalho-principal img#bola-croche {
     position: absolute;
-    left: 1470px;
+    left: 1540px;
     top: 55px;
 }
 
@@ -91,7 +91,7 @@ nav#menu a:hover {
 section#cima article#historia {
     border-top: 2px solid rgba(0, 0, 0, .3);
     border-bottom: 2px solid rgba(0, 0, 0, .3);
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -111,11 +111,54 @@ section#cima article#historia img#img-historia {
 }
 
 section#esquerda {
-    width: 700px;
+    width: 800px;
     display: block;
     float: left;
     padding: 20px;
     border-right: 2px solid rgba(0, 0, 0, .3);
+    margin-left: -20px;
+}
+
+section#esquerda h2 {
+    background-color: #f4b1db;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+section#esquerda h3 {
+    color: #d81490;
+}
+
+aside#direita {
+    width: 650px;
+    display: block;
+    float: right;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+aside#direita h2 {
+    background-color: #f4b1db;
+    color: #f4b1db;
+    padding: 5px;
+    margin-bottom: 35px;
+    margin-top: -45px;
+    margin-left: -88px;
+}
+
+aside#direita h3 {
+    color: #d81490;
+}
+
+aside#direita img {
+    display: block;
+    float: unset;
+}
+
+aside#direita ol {
+    margin-left: -80px;
 }
 
 footer#rodape {
