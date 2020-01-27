@@ -107,7 +107,7 @@ section#fotos ul#lista-fotos li#foto06:hover {
 }
 
 section#fotos ul#lista-fotos li#foto07 {
-    background: url("../_imagens/exemplo03.jpeg");
+    background: url("../_imagens/exemplo03.jpg");
     background-position: 50% 50%;
     background-size: 600px 600px;
 }
