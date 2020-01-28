@@ -6,6 +6,11 @@ header#header-galeria h2 {
     padding: 5px;
 }
 
+header#header-galeria h3 {
+    font-size: 20pt;
+    color: #f4b1db;
+}
+
 section#fotos ul#lista-fotos {
     position: relative;
     display: inline-block;
